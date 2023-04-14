@@ -1,17 +1,23 @@
 {
   "name": "rpg-together-backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "server.ts",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon server.ts"
   },
   "repository": "https://github.com/Pumpkintitan/rpg-together-backend.git",
   "author": "Pumpkintitan <pumpkintitan11@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "@types/socket.io": "^3.0.2",
+    "concurrently": "^8.0.1",
     "express": "^4.18.2",
     "nodemon": "^2.0.22",
     "socket.io": "^4.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
     "uuidv4": "^6.2.13"
   }
 }
